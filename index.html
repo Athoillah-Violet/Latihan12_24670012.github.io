@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Latihan 12</title>
+    <link rel="shortcut icon" href="assets/img/athok.ico" type="image/x-icon">
+    <!-- Bostrap Css -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+      <link rel="stylesheet" href="styles.css">
+    <!-- bostrap icon  -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+          <script>
+      function myFunction() {
+        document.getElementById("demo2").innerHTML = "Muncul";
+      }
+      </script>
+    </head>
+
+<body class="bg-dark">
+
+  <!-- Content here -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary  fixed-left shadow-sm ">
+  <div class="container">
+      
+
+
+        <img src="assets/img/athokmewlogo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        <a class="text-light text-decoration-none">Latihan 12 | Athoillah </a> 
+        
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end bg-secondary" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header ">
+        <h5 class="offcanvas-title" style="color: #fff;" id="offcanvasNavbarLabel">cari</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nev-item">
+           
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Cari
+            </a>
+            <ul class="dropdown-menu bg-secondary dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#gambar">Gambar</a></li>
+              <li><a class="dropdown-item" href="#grid">Grid</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#flex">Flex</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<section class="jumbotron karya text-center">
+  
+
+
+
+  
+  <div class="menu text-light text-decoration-none fw-bold ">
+  <h1 class="display-4 b-5">TEKNIK INFORMATIKA</h1>
+  <p class="lead ">Upgris</p> <button class="btn" type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+<p class="text-primary">Click me to display Date and Time.</p></button>
+<p id="demo"></p>
+    </div>  
+
+</div>  
+  
+
+</section>
+<br>
+ <section id="gambar" >
+  <div class="container">
+
+     <div class="row text-center text-light p-4">
+        <div class="col">
+          <h2> LAB INFORMATIKA</h2>
+        </div> 
+      </div>
+
+<div id="demo" class="carousel slide " data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner align-items-center">
+    <div class="carousel-item active">
+      <img src="assets/img/gambar.jpg" alt="Los Angeles" class="d-block w-100 ">
+      
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/gambar3.jpg" alt="Chicago" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/gambar.jpg" alt="New York" class="d-block w-100">
+    </div>
+        <div class="carousel-item">
+      <img src="assets/img/gambar3.jpg" alt="New York" class="d-block w-100">
+    </div>
+  
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+ </section> 
+
+
+
+ <!-- foto -->
+  
+  <section id="flex" >
+    <div class="tengah bg-secondary">
+    <div class="container">
+      <div class="row text-center text-light mt-3">
+        <div class="col">
+          <h2> Flex</h2>
+        </div> 
+      </div>
+      <div class="row mt-4 justify-content-center text-center">
+        <div class="col-md-3 mb-3 ">
+          <div class="card">
+            <a href="assets/img/karya-bg1.jpg"><img src="assets/img/karya-bg1.jpg" class="card-img-top"  alt="..."></a>
+              <div class="card-body text-center text-center">
+                <p class="card-text">Membuat Website untuk mengakses bell sekolah di SMK Syubbanul Wathon yang berbasis IoT Bersama Tim</p>
+
+                </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3  ">
+          <div class="card" >
+            <a href="assets/img/karya/Apk.png"><img src="assets/img/karya/Apk.png" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body text-center">
+                <p class="card-text">Membuat aplikasi untuk mengKonverter Satuan baik dari satuan berat, panjang, volume,  dan lainnya. juga berasil memenangkan dalam Infest Expo 2025</p>
+            </div>
+          </div>
+        </div>
+            <div class="col-md-3 mb-3 ">
+          <div class="card" >
+            <a href="assets/img/karya/karyalain1.jpg"><img src="assets/img/karya/karyalain1.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body text-center">
+                <p class="card-text">Menyalurkan bakat melalui literasi dengan membuat cerita novel bertema fantasy, untuk mendukung generasi muda dalam literasi.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3 ">
+          <div class="card">
+            <a href="assets/img/karya-bg1.jpg"><img src="assets/img/karya-bg1.jpg" class="card-img-top"  alt="..."></a>
+              <div class="card-body text-center text-center">
+                <p class="card-text">Membuat Website untuk mengakses bell sekolah di SMK Syubbanul Wathon yang berbasis IoT Bersama Tim</p>
+
+                </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3  ">
+          <div class="card" >
+            <a href="assets/img/karya/karyalain2.jpg"><img src="assets/img/karya/karyalain2.jpg" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body text-center">
+                <p class="card-text">Membuat aplikasi untuk mengKonverter Satuan baik dari satuan berat, panjang, volume,  dan lainnya. juga berasil memenangkan dalam Infest Expo 2025</p>
+            </div>
+          </div>
+        </div>
+            <div class="col-md-3 mb-3 ">
+          <div class="card" >
+            <a href="assets/img/karya/karyalain1.jpg"><img src="assets/img/karya/karyalain1.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body text-center">
+                <p class="card-text">Menyalurkan bakat melalui literasi dengan membuat cerita novel bertema fantasy, untuk mendukung generasi muda dalam literasi.</p>
+            </div>
+          </div>
+        </div>
+         <div class="col-md-3 mb-3 ">
+          <div class="card" >
+            <a href="assets/img/karya/Karyalain3.png"><img src="assets/img/karya/Karyalain3.png" class="card-img-top" alt="..."></a>
+              <div class="card-body text-center">
+                <p class="card-text">Menyalurkan bakat melalui literasi dengan membuat cerita novel bertema fantasy, untuk mendukung generasi muda dalam literasi.</p>
+            </div>
+          </div>
+        </div>
+         <div class="col-md-3 mb-3 ">
+          <div class="card" >
+            <a href="assets/img/karya/karyalain2.jpg"><img src="assets/img/karya/karyalain2.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body text-center">
+                <p class="card-text">Menyalurkan bakat melalui literasi dengan membuat cerita novel bertema fantasy, untuk mendukung generasi muda dalam literasi.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- Grid  -->
+ <section>
+   <div class="row text-center text-light">
+        <div class="col mt-5">
+          <h2> Grid</h2>
+        </div> 
+      </div>
+ <div class="container text-center text-light mt-5" id="grid">
+  <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+  <div class="row  bg-secondary">
+    <div class="col-md-8 p-2 border">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quaerat ipsum animi sapiente perspiciatis maxime velit est nobis! Quibusdam doloribus, optio nihil itaque a enim illum! Odio enim obcaecati dolorum.</div>
+    <div class="col-6 col-md-4 p-2 border bg-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum dicta, sed earum magnam, fugiat deleniti molestias possimus dignissimos nulla minus consequuntur perspiciatis delectus qui illo minima dolores odit, quibusdam aliquid.</div>
+  </div>
+
+  <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+  <div class="row  bg-light text-dark">
+    <div class="col-6 col-md-4 p-2 border" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere nostrum ducimus et, placeat dignissimos obcaecati, quaerat corrupti excepturi tenetur ipsa asperiores maxime praesentium delectus minima ipsum pariatur laudantium explicabo quibusdam!</div>
+    <div class="col-6 col-md-4 p-2 border bg-danger">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere nostrum ducimus et, placeat dignissimos obcaecati, quaerat corrupti excepturi tenetur ipsa asperiores maxime praesentium delectus minima ipsum pariatur laudantium explicabo quibusdam!</div>
+    <div class="col-6 col-md-4 p-2 border">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere nostrum ducimus et, placeat dignissimos obcaecati, quaerat corrupti excepturi tenetur ipsa asperiores maxime praesentium delectus minima ipsum pariatur laudantium explicabo quibusdam!</div>
+  </div>
+
+  <!-- Columns are always 50% wide, on mobile and desktop -->
+  <div class="row bg-secondary">
+    <div class="col-6 p-2 border bg-primary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda cumque qui numquam dignissimos, nostrum quasi sapiente sit aliquid placeat unde architecto molestias expedita vel eius asperiores impedit. Vel, totam ipsam.</div>
+    <div class="col-6 p-2 border ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam placeat ex in voluptates mollitia saepe aperiam temporibus, laborum, similique eligendi corporis. Earum aperiam perferendis aspernatur quod officiis at, sequi rem!</div>
+  </div>
+</div>
+ </section>
+ 
+<!-- Js -->
+<section id="Js" >
+  <div class="container">
+
+     <div class="row text-center text-light p-4">
+        <div class="col">
+          <h2> Java Script</h2>
+        </div> 
+      </div>
+      <div class="row text-center text-light p-4">
+        <div class="col">
+      <p>uji coba</p>
+
+      <button class="btn btn-primary p-3 m-5" onclick="document.getElementById('myImage').src='assets/img/pic_bulbon.gif'">Nyalakan</button>
+
+      <img id="myImage" src="assets/img/pic_bulboff.gif" style="width:100px">
+
+      <button class="btn btn-danger p-3 m-5" onclick="document.getElementById('myImage').src='assets/img/pic_bulboff.gif'">Matikan</button>
+      </div>
+      </div>
+         <div class="row text-center text-light p-4">
+        <div class="col">
+          <h2>Demo JavaScript in Head</h2>
+
+      <p id="demo2">Munculkan</p>
+      <button type="button" onclick="myFunction()">Try it</button>
+                </div>
+              </div>
+          </div>
+ </section> 
+
+
+
+<!-- footer -->
+ <div class="bawah bg-secondary">
+ <footer class="bg-secondary text-white text-center">
+  <p>Thank you <a href="#" class="text-white fw-bold">Alma</a></p>
+ </footer>
+
+
+
+ <!-- Bosttrap JS -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+  </div>
+
+
+  <!-- Offcanvas Sidebar -->
+<div class="offcanvas offcanvas-end" id="demo">
+  <div class="offcanvas-p-2 header">
+    <h1 class="offcanvas-title">Heading</h1>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Some text lorem ipsum.</p>
+    <p>Some text lorem ipsum.</p>
+    <button class="btn btn-secondary" type="button">A Button</button>
+  </div>
+</div>
+</body>
+</html>

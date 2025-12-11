@@ -1,0 +1,44 @@
+/* body{
+} */
+.jumbotron{
+    padding: 3rem 1rem;
+    background-color: #e2edfe;
+    /* background-image: url(assets/img/Upgris.jpg); */
+    margin-top: 3.5rem;
+}
+
+.karya{
+    background-image: url(assets/img/karya-bg1.jpg);
+    background-size: 100%;
+} 
+
+.tengah{
+    padding: 2rem 1rem;
+    background-color: #e2edfe;
+    margin-top: 2rem;
+
+}
+.bawah{
+    padding: 1rem 1rem;
+    margin-top: 2rem;
+
+}
+
+.menu a {
+  color: rgb(255, 255, 255) !important;
+  text-decoration: none;
+}
+.menu a:hover {
+  color: rgb(65, 75, 255);
+}
+img .figure{
+    max-width: 100px ;
+    
+}
+.page{
+    color: rgb(0, 0, 0);
+}
+.row button{
+    min-width: 300px ;
+    color: black;
+}
